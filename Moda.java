@@ -32,7 +32,7 @@ public class Moda {
 		// aparentemente todos as entradas de HasMapão <> 
 		for(Map.Entry<Integer, Integer> entry : numerosFrequencia.entrySet()) {
 			int valor = entry.getKey();
-			int freq = entry.getKey();
+			int freq = entry.getValue();
 			if( freq > maxFrequencia ) {
 				moda = valor ; 
 				maxFrequencia = freq ; 
